@@ -1,0 +1,19 @@
+Package: mypackage
+Type: Package
+Title: 20065 final homework
+Version: 1.0
+Date: 2020-12-13
+Author: Jinpeng Zhang
+Maintainer: Jinpeng Zhang <3110314361@qq.com>
+Description: Two functions from recent research work and one RMarkdown file
+ that contains all the 10 homeworks for course "Statistical Computing" this 
+ term are included in this package.
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.5), knitr, rmarkdown
+Suggests: microbenchmark 
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: http://github.com/github-fun1/mypackage
+BugReports: http://github.com/github-fun1/mypackage/issues

@@ -1,0 +1,5 @@
+Here in vignette file (.RMD)
+I choose the output filetype as: rmarkdown::html_document instead of the default filetype: rmarkdown::html_vignette.
+Because the default type (html_vignette) has the default parameter for figure in output html file, which is: fig_width=3(inches), fi_height=3(inches), 
+which will cause error when build the vignette (the figures in the homework sometimes have big margin length.)
+So it's better to choose the more flat type html_document (with margins: fig_width=7, fig_height=5)
